@@ -17,7 +17,7 @@ if len(sys.argv) > 1:
 else:
     # 如果没有提供文件名，使用默认值
     file_name = 'default_file.xlsx'
-    print("请通过命令行参数指定文件名，例如: python script.py input_file.xlsx")
+    print("请通过命令行参数指定文件名，例如: python app.py input_file.xlsx")
     print("使用默认文件名:", file_name)
 
 # 读取表格数据
